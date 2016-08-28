@@ -1,6 +1,6 @@
 {% set name = "pylint-flask" %}
-{% set version = "0.3" %}
-{% set sha256 = "7b0db2e98d34c3760664ab26464cd293d3736ee50999ad5f8313883c80c14d2f" %}
+{% set version = "0.4" %}
+{% set sha256 = "1d3491056939079b16c73ae1fd4caaf6de3a8db444178a13acc4f0038a4dff54" %}
 
 package:
   name: {{ name|lower }}
