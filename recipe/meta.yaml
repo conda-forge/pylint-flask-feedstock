@@ -1,6 +1,6 @@
 {% set name = "pylint-flask" %}
-{% set version = "0.4" %}
-{% set sha256 = "1d3491056939079b16c73ae1fd4caaf6de3a8db444178a13acc4f0038a4dff54" %}
+{% set version = "0.5" %}
+{% set sha256 = "8fcdbb7cbf13d8c2ac1f2230b2aa1c1b83bb3ca2bd8b76f95561cb8757a305ec" %}
 
 package:
   name: {{ name|lower }}
@@ -33,6 +33,7 @@ test:
 about:
   home: https://github.com/jschaf/pylint-flask
   license: GPL 2
+  license_file: LICENSE
   summary: pylint-flask is a Pylint plugin to aid Pylint in recognizing and understanding errors caused when using Flask
 
 extra:
