@@ -11,6 +11,18 @@ Summary: pylint-flask is a Pylint plugin to aid Pylint in recognizing and unders
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pylint-flask-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pylint-flask-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pylint-flask-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pylint-flask-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pylint-flask-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pylint-flask-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-flask/badges/version.svg)](https://anaconda.org/conda-forge/pylint-flask)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-flask/badges/downloads.svg)](https://anaconda.org/conda-forge/pylint-flask)
+
 Installing pylint-flask
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pylint-flask` available on your p
 ```
 conda search pylint-flask --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pylint-flask-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pylint-flask-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pylint-flask-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pylint-flask-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pylint-flask-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pylint-flask-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-flask/badges/version.svg)](https://anaconda.org/conda-forge/pylint-flask)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-flask/badges/downloads.svg)](https://anaconda.org/conda-forge/pylint-flask)
 
 
 Updating pylint-flask-feedstock
