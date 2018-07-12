@@ -14,14 +14,15 @@ Summary: pylint-flask is a Pylint plugin to aid Pylint in recognizing and unders
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pylint-flask-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pylint-flask-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pylint-flask-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pylint-flask-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pylint-flask-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pylint-flask-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pylint-flask-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pylint-flask-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-flask/badges/version.svg)](https://anaconda.org/conda-forge/pylint-flask)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylint-flask/badges/downloads.svg)](https://anaconda.org/conda-forge/pylint-flask)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pylint--flask-green.svg)](https://anaconda.org/conda-forge/pylint-flask) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pylint-flask.svg)](https://anaconda.org/conda-forge/pylint-flask) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pylint-flask.svg)](https://anaconda.org/conda-forge/pylint-flask) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pylint-flask.svg)](https://anaconda.org/conda-forge/pylint-flask) |
 
 Installing pylint-flask
 =======================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
