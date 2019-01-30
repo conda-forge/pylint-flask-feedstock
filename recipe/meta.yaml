@@ -1,6 +1,6 @@
 {% set name = "pylint-flask" %}
-{% set version = "0.5" %}
-{% set sha256 = "8fcdbb7cbf13d8c2ac1f2230b2aa1c1b83bb3ca2bd8b76f95561cb8757a305ec" %}
+{% set version = "0.6" %}
+{% set sha256 = "f4d97de2216bf7bfce07c9c08b166e978fe9f2725de2a50a9845a97de7e31517" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
